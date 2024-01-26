@@ -36,5 +36,5 @@ const finalPrice = ticketPrice - discountPrice;
 
 // visualizzazione a schermo arrotondata a 2 decimali
 document.getElementById("ticketprice").innerHTML = 
-    `Il prezzo del biglietto è pari a ${finalPrice.toFixed(2)}€`
+    `<b>${finalPrice.toFixed(2)}€</b>`
 ;

@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+hr{
+    margin-block: 1.5em;
+    width: 50%;
+}
+
+div{
+    font-size: 1.2em;
+}
+
+#ticketprice{
+    padding: 0.3em;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: lightgreen;
+        
+}
