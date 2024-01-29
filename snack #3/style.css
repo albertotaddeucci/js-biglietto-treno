@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+}
+
+div{
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
+
+.result{
+    max-width: 15ch;
+    margin: 0 auto;
+        
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+#resultP{
+    background-color: darkgrey;
+}
+
+#resultW{
+    background-color: green;    
+}
+
+#resultL{
+    background-color: red;    
+}
+
+
