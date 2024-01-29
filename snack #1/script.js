@@ -4,16 +4,16 @@
 Visualizza la temperatura convertita.*/
 
 
-const tempCelsius = prompt("Inserisci la temperatura in gradi Celsius da convertire")
+const tempCelsius = Number(prompt("Inserisci la temperatura in gradi Celsius da convertire"));
 
 if (isNaN(tempCelsius)){
-    alert ("Attenzione: inserire valore numerico")
+    alert ("Attenzione: inserire valore numerico");
 }
 
 let tempFaren;
 
-tempFaren = ( tempCelsius * 9/5 ) + 32
+tempFaren = ( tempCelsius * 9/5 ) + 32;
 
 // console.log(tempFaren)
 
-document.getElementById("conversion").innerHTML = `${tempFaren}°F`
+document.getElementById("conversion").innerHTML = `${tempFaren}°F`;
