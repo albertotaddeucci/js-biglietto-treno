@@ -1,0 +1,9 @@
+body{
+    font-family: sans-serif;
+}
+
+span{
+    color: brown;
+    text-decoration: underline;
+    font-weight: bold;
+}
